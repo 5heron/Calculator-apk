@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#aabbcc"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:background="#aabbdc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Number 1:"
+            android:textColor="#aabbcc"
+            android:layout_margin="5dp"
+            android:background="#0361BF"/>
+        <EditText
+            android:id="@+id/num1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Number"
+            android:inputType="number"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#aabbdc"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Number 2:"
+            android:textColor="#aabbcc"
+            android:layout_margin="5dp"
+            android:background="#0361BF"/>
+        <EditText
+            android:id="@+id/num2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Number"
+            android:inputType="number"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/divb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fafbcc"
+        android:layout_margin="20dp"
+        android:text="divide"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fafbcc"
+        android:layout_margin="20dp"
+        android:text="Back to menu"/>
+</LinearLayout>
